@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://oxsecurity.github.io/ticketing-system-2FA/</loc>
+         <lastmod>2022-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://oxsecurity.github.io/ticketing-system-password/</loc>
          <lastmod>2022-11-17</lastmod>
          <changefreq>daily</changefreq>
