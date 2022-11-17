@@ -1,0 +1,99 @@
+site_name: ""
+site_url: https://oxsecurity.github.io
+repo_url: https://github.com/oxsecurity/oxsecurity.github.io
+edit_uri: tree/master/docs
+site_author: Nicolas Vuillamy & Yael Citro
+site_description: OX Security Online Documentation
+copyright: Copyright &copy; 2022 <a href="https://www.ox.security">OX Security</a>
+# google_analytics: ["G-3DM50255LC", "oxsecurity.github.io"]
+theme:
+  name: material
+  font: 
+    text: Satoshi, sans-serif
+#  custom_dir: docs/overrides
+  features:
+    - navigation.instant
+  logo: assets/images/logo.svg
+  favicon: assets/icons/favicon.png
+  palette:
+    primary: white
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.snippets:
+      base_path: docs
+      check_paths: true
+  - mdx_truly_sane_lists
+  - attr_list
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ox-security/
+    - icon: fontawesome/regular/circle-question
+      link: https://github.com/oxsecurity/megalinter/issues
+      title: Need help ? Post an issue :)
+    - icon: fontawesome/brands/github
+      link: https://github.com/oxsecurity/oxsecurity.github.io
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/team8group
+  generator: false
+nav:
+  - "Home": "index.md"
+  - "Ticketing system":
+    - "Password": "ticketing-system-password.md"
+    - "2FA": "ticketing-system-2FA.md"
+    - "Wiki edit limited": "ticketing-system-wiki.md"
+  - "Access": 
+    - "Missing 2FA": "access-missing-2FA.md"
+  - "Pipeline Posture": 
+    - "Admin/repo admin": "pipeline-posture-admin-repo.md"
+    - "Add active admins": "pipeline-posture-add-active-admins.md"
+    - "No active admin": "pipeline-posture-no-active-admin.md"
+    - "Inactive maintainers": "pipeline-posture-inactive-maintainers.md" 
+    - "Inactive collaborators": "pipeline-posture-inactive-collaborators.md" 
+    - "Force outside collaborators 2FA": "pipeline-posture-force-outside-collaborators-2FA.md"
+    - "Main branch code review requirements": "pipeline-posture-main-branch-code-review-requirements.md"
+    - "Secret exposed in build log": "pipeline-posture-secret-exxposed-in-build-log.md"
+    - "ByPass approvers": "pipeline-posture-bypass-approvers.md"
+  - "Code Security posture":
+    - "Code security (SAST)": "code-security-posture-code-security-sast.md"
+    - "Open source vulnerability(SCA)": "code-security-posture-open-source-vulnerability-sca.md"
+    - "Keys & Crypto": "code-security-posture-keys-and-crypto.md"
+    - "Sanitization": "code-security-posture-sanitization.md"
+    - "Logical errors": "code-security-posture-logical-errors.md"
+    - "DOS": "code-security-posture-dos.md"
+  - "Public Code repos reliance":
+    - "Typo Squoting": "public-code-repos-reliance-typo-squoting.md"
+    - "Package take over (BitGo)": "public-code-repos-reliance-package-take-over-bitgo.md"
+#  - "API":
+#  - "Artifactory": 
+  - "Containers": 
+    - "Control plane": "containers-control-pane.md"
+    - "OS Vulnereabilities": "containers-os-vulnerability.md"
+  - "CI/CD posture": 
+    - "Review ByPass": "ci-cd-posture-review-bypass.md"
+    - "Pipeline confusion": "ci-cd-posture-pipeline-confusion.md"
+    - "Unofficial docker images runner": "ci-cd-posture-unofficial-docker-images-runner.md"
+    - "Secrets in CI YAML": "ci-cd-posture-secrets-in-ci-yaml.md"
+    - "Echo secrets in Console": "ci-cd-posture-echo-secrets-in-console.md"
+    - "Code owners": "ci-cd-posture-code-owners.md"
+    - "Command injection via context argument": "ci-cd-posture-command-injection-via-contexxt-argument.md"
+    - "Preventing GitHub Actions from approving PR": "ci-cd-posture-preventing-github-actions-from-approving-pr.md"
+    - "Limit permissions of GitHub Token": "ci-cd-posture-limit-permissions-of-github-token.md"
+#  - "Expositions": 
+#  - "Cloud": 
+
+
+
+
+ 
+
+
+
+
