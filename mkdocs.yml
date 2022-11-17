@@ -46,12 +46,15 @@ extra:
 nav:
   - "Home": "index.md"
   - "Ticketing system":
+    - "Index": "ticketing-system-index.md"
     - "Password": "ticketing-system-password.md"
     - "2FA": "ticketing-system-2FA.md"
     - "Wiki edit limited": "ticketing-system-wiki.md"
   - "Access": 
+    - "Index": "access-system-index.md"
     - "Missing 2FA": "access-missing-2FA.md"
   - "Pipeline Posture": 
+    - "Index": "pipeline-system-index.md"
     - "Admin/repo admin": "pipeline-posture-admin-repo.md"
     - "Add active admins": "pipeline-posture-add-active-admins.md"
     - "No active admin": "pipeline-posture-no-active-admin.md"
@@ -62,6 +65,7 @@ nav:
     - "Secret exposed in build log": "pipeline-posture-secret-exxposed-in-build-log.md"
     - "ByPass approvers": "pipeline-posture-bypass-approvers.md"
   - "Code Security posture":
+    - "Index": "code-security-system-index.md"
     - "Code security (SAST)": "code-security-posture-code-security-sast.md"
     - "Open source vulnerability(SCA)": "code-security-posture-open-source-vulnerability-sca.md"
     - "Keys & Crypto": "code-security-posture-keys-and-crypto.md"
@@ -69,14 +73,19 @@ nav:
     - "Logical errors": "code-security-posture-logical-errors.md"
     - "DOS": "code-security-posture-dos.md"
   - "Public Code repos reliance":
+    - "Index": "public-code-repos-index.md"
     - "Typo Squoting": "public-code-repos-reliance-typo-squoting.md"
     - "Package take over (BitGo)": "public-code-repos-reliance-package-take-over-bitgo.md"
-#  - "API":
-#  - "Artifactory": 
+  - "API":
+    - "Index": "api-index.md"
+  - "Artifactory": 
+    - "Index": "artifactory-index.md"
   - "Containers": 
+    - "Index": "containers-index.md"
     - "Control plane": "containers-control-pane.md"
     - "OS Vulnereabilities": "containers-os-vulnerability.md"
   - "CI/CD posture": 
+    - "Index": "ci-cd-posture-index.md"
     - "Review ByPass": "ci-cd-posture-review-bypass.md"
     - "Pipeline confusion": "ci-cd-posture-pipeline-confusion.md"
     - "Unofficial docker images runner": "ci-cd-posture-unofficial-docker-images-runner.md"
@@ -86,14 +95,7 @@ nav:
     - "Command injection via context argument": "ci-cd-posture-command-injection-via-contexxt-argument.md"
     - "Preventing GitHub Actions from approving PR": "ci-cd-posture-preventing-github-actions-from-approving-pr.md"
     - "Limit permissions of GitHub Token": "ci-cd-posture-limit-permissions-of-github-token.md"
-#  - "Expositions": 
-#  - "Cloud": 
-
-
-
-
- 
-
-
-
-
+  - "Expositions": 
+    - "Index": "expositions-index.md"
+  - "Cloud": 
+    - "Index": "cloud-index.md"
