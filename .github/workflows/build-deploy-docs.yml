@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-python@v4.3.0
         with:
           python-version: 3.10.4
-      - run: pip install --upgrade markdown==3.3.7 mike mkdocs-material mdx_truly_sane_lists json-schema-for-humans giturlparse webpreview
+      - run: pip install mkdocs-material mdx_truly_sane_lists
       - run: |
           git config --global user.name oxsecurity-bot
           git config --global user.email nicolas.vuillamy@ox.security
