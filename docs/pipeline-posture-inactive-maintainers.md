@@ -4,7 +4,7 @@
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
 | Techniques (3)| Techniques (1)| Techniques (10)| Techniques (6)| | Techniques (2)| Techniques (0)| Techniques (0) | Techniques (3) | Techniques (9)| Techniques (0)| Techniques (0)| 
 
-'Password in the ticketing system' '2FA' 'Wiki edit limited'| Missing 2FA | 'Admin/repo admin' 'inactive admins' 'No active admin' 'Inactive mainainers      ' 'inactive colaborators' 'missing 2FA' 'Force outside colaborators 2FA' 'Main branch code review requirments' 'Secret exposed in build log' 'ByPass approvers' |                 
+'Password in the ticketing system' '2FA' 'Wiki edit limited'| Missing 2FA | 'Admin/repo admin' 'inactive admins' 'No active admin' 'Inactive mainainers      ' 'inactive colaborators' 'missing 2FA' 'Force outside colaborators 2FA' 'Main branch code review requirments' 'Secret exposed in build log' 'ByPass approvers' | 'Code security(Sast)' 'Open source vulnerability(SCA)' 'Keys & Crypto' 'Sanitization' 'Logical errors' 'DOS' | 'Typosquatting' 'Package take over (BitGo)' |     |     | 'Control plane' 'OS vulnereabilities'| 'Review BYPass' 'Pipeline confusion' 'Unofficial docker images runner' 'Secrets in CI YAML' 'Echo secrets in Console' 'Code onwers' 'Commadn injection via context argument''Preventing GitHub Actions from approving PR' 'Limit permissions of GitHubToken' |     |     |  
 
 
 
