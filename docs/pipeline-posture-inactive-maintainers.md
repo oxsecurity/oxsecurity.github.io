@@ -1,6 +1,5 @@
-## Software Supply Chain Attack Vectors 
+                                             ## Software Supply Chain Attack Vectors 
 
-| ------------------------------------ | ---------------------| -----------------------------------  | ------------------------------ |
 | Ticketing System Access              | Access Techniques    | Pipeline Posture                     | Code Security posture          |
 | Techniques (3)                       | Techniques (1)       | Techniques (10)                      | Techniques (6)                 |
 | -------------------------------------| ---------------------| -------------------------------------| -------------------------------|
@@ -14,7 +13,7 @@
 |                                      |                      | Main branch code review requirements |                                |
 |                                      |                      | Secret exposed in build log          |                                |
 |                                      |                      | ByPass approvers                     |                                |
-| ------------------------------------ | ---------------------| -----------------------------------  | ------------------------------ |
+
 | Reliance on Public Code Repos        | API                  | Artifactory                          | Containers                     |
 | Techniques (2)                       | Techniques (0) |     | Techniques (0)                       | Techniques (3)                 |
 | ------------------------------------ | ---------------------| -----------------------------------  | ------------------------------ |                    | Typosquatting                        |                      |                                      | Control plane
