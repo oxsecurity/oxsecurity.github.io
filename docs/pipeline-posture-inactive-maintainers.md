@@ -1,8 +1,8 @@
                                              ## Software Supply Chain Attack Vectors 
 
 | Ticketing System Access              | Access Techniques    | Pipeline Posture                     | Code Security posture          |
+| Techniques (3)                       | Techniques (1)       | Techniques (10)                      | Techniques (6)
 | -------------------------------------| ---------------------| -------------------------------------| -------------------------------|
-| Techniques (3)                       | Techniques (1)       | Techniques (10)                      | Techniques (6)                 |
 | Password in the ticketing system     | Missing 2FA          | Admin/repo admin                     | Code security(Sast)            |
 | 2FA                                  |                      | adinacive admins                     | Open source vulnerability(SCA) |
 | Wiki edit limited                    |                      | No active admin                      | Keys & Crypto                  |
