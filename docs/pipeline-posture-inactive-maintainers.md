@@ -1,8 +1,13 @@
                                              ## Software Supply Chain Attack Vectors 
 
-| Ticketing System Access                      | Access Techniques           | Pipeline Posture                     | Code Security posture          |
+| Ticketing System Access | Access Techniques | Pipeline Posture | Code Security Posture| Reliance on Public Code Repos| API| Artifactory| Containers| CI/CD Posture | Extensions | Clouds|
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
-| Techniques (3)                               | Techniques (1)              | Techniques (10)                      | Techniques (6)                 |
+| Techniques (3)| Techniques (1)| Techniques (10)| Techniques (6)| | Techniques (2)| Techniques (0)| Techniques (0) | Techniques (3) | Techniques (9)| Techniques (0)| Techniques (0)| 
+
+
+
+
+
 | Password in the ticketing system             | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
 | 2FA                                          |                             | inacive admins                       | Open source vulnerability(SCA) |
 | Wiki edit limited                            |                             | No active admin                      | Keys & Crypto                  |
@@ -20,6 +25,9 @@
 | Typosquatting                                |                             |                                      | Control plane                  |
 | Package take over (BitGo)                    |                             |                                      | OS vulnereabilities            |
 |                                              |                             |                                      |                                | 
+
+
+
 |                                              |                             |                                      |                                |
 | CI/CD Posture                                | Extensions                  | Clouds                               |                                |
 | Techniques (9)                               | Techniques (0)              | Techniques (0)                       |                                |
