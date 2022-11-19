@@ -1,9 +1,7 @@
-# OX Security Index
+# Software Supply Chain Attack Vectors 
 
 _(in construction...)_
 
-
-                                             ## Software Supply Chain Attack Vectors 
 
 | Ticketing System Access                      | Access Techniques           | Pipeline Posture                     | Code Security posture          |
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
