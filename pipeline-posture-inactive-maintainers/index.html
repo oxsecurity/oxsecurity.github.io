@@ -1332,24 +1332,120 @@
 
 <pre><code>                                         ## Software Supply Chain Attack Vectors
 </code></pre>
-<p>| Ticketing System Access              | Access Techniques    | Pipeline Posture                     | Code Security posture          |
-| Techniques (3)                       | Techniques (1)       | Techniques (10)                      | Techniques (6)                 |
-| -------------------------------------| ---------------------| -------------------------------------| -------------------------------|
-| Password in the ticketing system     | Missing 2FA          | Admin/repo admin                     | Code security(Sast)            |
-| 2FA                                  |                      | adinacive admins                     | Open source vulnerability(SCA) |
-| Wiki edit limited                    |                      | No active admin                      | Keys &amp; Crypto                  |
-|                                      |                      | Inactive mainainers                  | Sanitization                   |
-| Category (Stage in the supply chane) |                      | inactive colaborators                | Logical errors                 |
-| Line item cluster of attacks         |                      | missing 2FA                          | DOS                            |
-| Criterias                            |                      | Force outside colaborators 2FA       |                                |
-|                                      |                      | Main branch code review requirements |                                |
-|                                      |                      | Secret exposed in build log          |                                |
-|                                      |                      | ByPass approvers                     |                                |</p>
-<p>| Reliance on Public Code Repos        | API                  | Artifactory                          | Containers                     |
-| Techniques (2)                       | Techniques (0) |     | Techniques (0)                       | Techniques (3)                 |
-| ------------------------------------ | ---------------------| -----------------------------------  | ------------------------------ |                    | Typosquatting                        |                      |                                      | Control plane
-| Package take over (BitGo)            |                      |                                      | OS vulnereabilities            |
-|                                      |                      |                                      |                                |                  |</p>
+<table>
+<thead>
+<tr>
+<th>Ticketing System Access</th>
+<th>Access Techniques</th>
+<th>Pipeline Posture</th>
+<th>Code Security posture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Techniques (3)</td>
+<td>Techniques (1)</td>
+<td>Techniques (10)</td>
+<td>Techniques (6)</td>
+</tr>
+<tr>
+<td>Password in the ticketing system</td>
+<td>Missing 2FA</td>
+<td>Admin/repo admin</td>
+<td>Code security(Sast)</td>
+</tr>
+<tr>
+<td>2FA</td>
+<td></td>
+<td>adinacive admins</td>
+<td>Open source vulnerability(SCA)</td>
+</tr>
+<tr>
+<td>Wiki edit limited</td>
+<td></td>
+<td>No active admin</td>
+<td>Keys &amp; Crypto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Inactive mainainers</td>
+<td>Sanitization</td>
+</tr>
+<tr>
+<td>Category (Stage in the supply chane)</td>
+<td></td>
+<td>inactive colaborators</td>
+<td>Logical errors</td>
+</tr>
+<tr>
+<td>Line item cluster of attacks</td>
+<td></td>
+<td>missing 2FA</td>
+<td>DOS</td>
+</tr>
+<tr>
+<td>Criterias</td>
+<td></td>
+<td>Force outside colaborators 2FA</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Main branch code review requirements</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Secret exposed in build log</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ByPass approvers</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Reliance on Public Code Repos</th>
+<th>API</th>
+<th>Artifactory</th>
+<th>Containers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Techniques (2)</td>
+<td>Techniques (0)</td>
+<td></td>
+<td>Techniques (0)</td>
+</tr>
+<tr>
+<td>Typosquatting</td>
+<td></td>
+<td></td>
+<td>Control plane</td>
+</tr>
+<tr>
+<td>Package take over (BitGo)</td>
+<td></td>
+<td></td>
+<td>OS vulnereabilities</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="sublevel-1">Sublevel 1</h2>
 <p>Hello <strong>Yael</strong></p>
 <h2 id="sublevel-2">Sublevel 2</h2>
