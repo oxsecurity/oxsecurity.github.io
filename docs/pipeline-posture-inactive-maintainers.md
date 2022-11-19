@@ -16,14 +16,12 @@
 |                                              |                             |                                      |                                |
 |                                              |                             |                                      |                                |
 | Reliance on Public Code Repos                | API                         | Artifactory                          | Containers                     |
-| ---------------------------------------------| ----------------------------| -----------------------------------  | ------------------------------ | 
 | Techniques (2)                               | Techniques (0)              | Techniques (0)                       | Techniques (3)                 |
 | Typosquatting                                |                             |                                      | Control plane                  |
 | Package take over (BitGo)                    |                             |                                      | OS vulnereabilities            |
 |                                              |                             |                                      |                                | 
 |                                              |                             |                                      |                                |
 | CI/CD Posture                                | Extensions                  | Clouds                               |                                |
-| ---------------------------------------------| ----------------------------| -----------------------------------  | ------------------------------ | 
 | Techniques (9)                               | Techniques (0)              | Techniques (0)                       |                                |
 | Review BYPass                                |                             |                                      |                                |
 | Pipeline confusion.                          |                             |                                      |                                |
