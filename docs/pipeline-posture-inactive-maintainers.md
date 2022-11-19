@@ -3,14 +3,9 @@
 | Ticketing System Access | Access Techniques | Pipeline Posture | Code Security Posture| Reliance on Public Code Repos| API| Artifactory| Containers| CI/CD Posture | Extensions | Clouds|
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
 | Techniques (3)| Techniques (1)| Techniques (10)| Techniques (6)| | Techniques (2)| Techniques (0)| Techniques (0) | Techniques (3) | Techniques (9)| Techniques (0)| Techniques (0)| 
-
-
-
-
-
-| Password in the ticketing system             | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
-| 2FA                                          |                             | inacive admins                       | Open source vulnerability(SCA) |
-| Wiki edit limited                            |                             | No active admin                      | Keys & Crypto                  |
+'Password in the ticketing system' '2FA' 'Wiki edit limited'| Missing 2FA |                 | Admin/repo admin                     | Code security(Sast)            |
+|                                           |                             | inacive admins                       | Open source vulnerability(SCA) |
+|                            |                             | No active admin                      | Keys & Crypto                  |
 |                                              |                             | Inactive mainainers                  | Sanitization                   |
 | Category (Stage in the supply chane)         |                             | inactive colaborators                | Logical errors                 |
 | Line item cluster of attacks                 |                             | missing 2FA                          | DOS                            |
