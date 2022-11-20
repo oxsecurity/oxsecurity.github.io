@@ -5,9 +5,9 @@ _(in construction...)_
 
 | Ticketing System Access                      | Access Techniques           | Pipeline Posture                     | Code Security posture          |
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
-|'Techniques (3)'                               | Techniques (1)              | Techniques (10)                      | Techniques (6)                 |
-|'Password in the ticketing system'             | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
-|'2FA'                                          |                             | inacive admins                       | Open source vulnerability(SCA) |
+|_Techniques (3)_                              | _Techniques (1)_              | _Techniques (10)_                      | _Techniques (6)_                 |
+|Password in the ticketing system           | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
+|2FA                                         |                             | inacive admins                       | Open source vulnerability(SCA) |
 |'Wiki edit limited'                            |                             | No active admin                      | Keys & Crypto                  |
 |                                              |                             | Inactive mainainers                  | Sanitization                   |
 | Category (Stage in the supply chane)         |                             | inactive colaborators                | Logical errors                 |
@@ -17,15 +17,17 @@ _(in construction...)_
 |                                              |                             | Secret exposed in build log          |                                |
 |                                              |                             | ByPass approvers                     |                                |
 |                                              |                             |                                      |                                |
-|                                              |                             |                                      |                                |
+
 | Reliance on Public Code Repos                | API                         | Artifactory                          | Containers                     |
-| Techniques (2)                               | Techniques (0)              | Techniques (0)                       | Techniques (3)                 |
+| ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
+| _Techniques (2)_                               | _Techniques (0)_              | _Techniques (0)_                      | _Techniques (3)_                 |
 | Typosquatting                                |                             |                                      | Control plane                  |
 | Package take over (BitGo)                    |                             |                                      | OS vulnereabilities            |
 |                                              |                             |                                      |                                | 
-|                                              |                             |                                      |                                |
+
 | CI/CD Posture                                | Extensions                  | Clouds                               |                                |
-| Techniques (9)                               | Techniques (0)              | Techniques (0)                       |                                |
+| ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
+| _Techniques (9)_                               | _Techniques (0)_              | _Techniques (0)_                       |                                |
 | Review BYPass                                |                             |                                      |                                |
 | Pipeline confusion.                          |                             |                                      |                                |
 | Unofficial docker images runner              |                             |                                      |                                |
