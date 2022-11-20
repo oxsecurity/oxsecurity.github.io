@@ -16,14 +16,12 @@ _(in construction...)_
 |                                              |                             | Main branch code review requirements |                                |
 |                                              |                             | Secret exposed in build log          |                                |
 |                                              |                             | ByPass approvers                     |                                |
-|                                              |                             |                                      |                                |
 
 | Reliance on Public Code Repos                | API                         | Artifactory                          | Containers                     |
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
 | _Techniques (2)_                               | _Techniques (0)_              | _Techniques (0)_                      | _Techniques (3)_                 |
 | Typosquatting                                |                             |                                      | Control plane                  |
 | Package take over (BitGo)                    |                             |                                      | OS vulnereabilities            |
-|                                              |                             |                                      |                                | 
 
 | CI/CD Posture                                | Extensions                  | Clouds                               |                                |
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
