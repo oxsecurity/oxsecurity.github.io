@@ -5,10 +5,10 @@ _(in construction...)_
 
 | Ticketing System Access                      | Access Techniques           | Pipeline Posture                     | Code Security posture          |
 | ---------------------------------------------| ----------------------------| -------------------------------------| -------------------------------|
-'Techniques (3)'                               | Techniques (1)              | Techniques (10)                      | Techniques (6)                 |
-'Password in the ticketing system'             | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
-'2FA'                                          |                             | inacive admins                       | Open source vulnerability(SCA) |
-'Wiki edit limited'                            |                             | No active admin                      | Keys & Crypto                  |
+|'Techniques (3)'                               | Techniques (1)              | Techniques (10)                      | Techniques (6)                 |
+|'Password in the ticketing system'             | Missing 2FA                 | Admin/repo admin                     | Code security(Sast)            |
+|'2FA'                                          |                             | inacive admins                       | Open source vulnerability(SCA) |
+|'Wiki edit limited'                            |                             | No active admin                      | Keys & Crypto                  |
 |                                              |                             | Inactive mainainers                  | Sanitization                   |
 | Category (Stage in the supply chane)         |                             | inactive colaborators                | Logical errors                 |
 | Line item cluster of attacks                 |                             | missing 2FA                          | DOS                            |
@@ -36,9 +36,3 @@ _(in construction...)_
 | Preventing GitHub Actions from approving PR  |                             |                                      |                                |
 | Limit permissions of GitHubToken             |                             |                                      |                                | 
 
-
-[LABEL](page)
-<div class="twitter-card">
-  <a class="twitter-timeline" href="https://twitter.com/nvuillam?ref_src=twsrc%5Etfw" data-theme="light" data-height="388">Tweets by MITREattack</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
